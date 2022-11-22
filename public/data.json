@@ -1,4 +1,76 @@
 [
+  
+  
+  {
+    "id": 10,
+    "name": "Smith & Wesson M&P15",
+    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/S%26WM%26P15.png",
+    "bullet": "5.56x45mm NATO",
+    "capacity": "30 + 1",
+    "action": "Semi-Automatic",
+    "price": "800",
+    "category": "Rifle"
+  },
+  {
+    "id": 11,
+    "name": "Ruger AR-556",
+    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556.png",
+    "bullet": ".223 NATO",
+    "capacity": "30+1",
+    "action": "Semi-Automatic",
+    "price": "750",
+    "category": "Rifle"
+  },
+  {
+    "id": 12,
+    "name": "Ruger AR-556 MPR",
+    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556RMP.png",
+    "bullet": ".223 NATO",
+    "capacity": "30 + 1",
+    "action": "Semi-Automatic",
+    "price": "880",
+    "category": "Rifle"
+  },
+  {
+    "id": 7,
+    "name": "Browning Citori 725",
+    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/Browning.png",
+    "bullet": "12 Gauge",
+    "capacity": "2",
+    "action": "Double Shot",
+    "price": "5430",
+    "category": "Shotgun"
+  },
+  {
+    "id": 8,
+    "name": "Winchester SXP",
+    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/winchester.png",
+    "bullet": "12 Gauge",
+    "capacity": "5 + 1",
+    "action": "Pump",
+    "price": "570",
+    "category": "Shotgun"
+  },
+  {
+    "id": 9,
+    "name": "Bergara B-14 HMR",
+    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/bergara.png",
+    "bullet": "6.5 Creedmoor",
+    "capacity": "5",
+    "action": "Semi-Automatic",
+    "price": "970",
+    "category": "Rifle"
+  },
+  {
+    "id": 13,
+    "name": "Savage 110 Elite",
+    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/savage110.png",
+    "bullet": ".300 Winchester Magnum",
+    "capacity": "5",
+    "action": "Bolt",
+    "price": "1870",
+    "category": "Rifle"
+  },
   {
     "id": 1,
     "name": "GLOCK 17 Gen5",
@@ -58,75 +130,5 @@
     "action": "Semi-Automatic",
     "price": "1900",
     "category": "Shotgun"
-  },
-  {
-    "id": 7,
-    "name": "Browning Citori 725",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/Browning.png",
-    "bullet": "12 Gauge",
-    "capacity": "2",
-    "action": "Double Shot",
-    "price": "5430",
-    "category": "Shotgun"
-  },
-  {
-    "id": 8,
-    "name": "Winchester SXP",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/winchester.png",
-    "bullet": "12 Gauge",
-    "capacity": "5 + 1",
-    "action": "Pump",
-    "price": "570",
-    "category": "Shotgun"
-  },
-  {
-    "id": 9,
-    "name": "Bergara B-14 HMR",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/bergara.png",
-    "bullet": "6.5 Creedmoor",
-    "capacity": "5",
-    "action": "Semi-Automatic",
-    "price": "970",
-    "category": "Rifle"
-  },
-  {
-    "id": 10,
-    "name": "Smith & Wesson M&P15",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/S%26WM%26P15.png",
-    "bullet": "5.56x45mm NATO",
-    "capacity": "30 + 1",
-    "action": "Semi-Automatic",
-    "price": "800",
-    "category": "Rifle"
-  },
-  {
-    "id": 11,
-    "name": "Ruger AR-556",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556.png",
-    "bullet": ".223 NATO",
-    "capacity": "30+1",
-    "action": "Semi-Automatic",
-    "price": "750",
-    "category": "Rifle"
-  },
-  {
-    "id": 12,
-    "name": "Ruger AR-556 MPR",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556RMP.png",
-    "bullet": ".223 NATO",
-    "capacity": "30 + 1",
-    "action": "Semi-Automatic",
-    "price": "880",
-    "category": "Rifle"
-  },
-  {
-    "id": 13,
-    "name": "Savage 110 Elite",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/savage110.png",
-    "bullet": ".300 Winchester Magnum",
-    "capacity": "5",
-    "action": "Bolt",
-    "price": "1870",
-    "category": "Rifle"
   }
 ]

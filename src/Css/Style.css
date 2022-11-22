@@ -1,6 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lobster', cursive;
+}
 .nav-content{
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    background: gray;
+}
+.nav-content ul{
+    position:relative;
+    cursor: pointer;
+}
+.nav-content ul li span{
+    position: absolute;
+    /* background-color: rgba(220, 9, 9, 0.493); */
+    background-color:rgba(255,255,255 ,0.43);
+    border-radius: 100px;
+    width: 25px;
+    height: 25px;
+    left: 25px;
+    top: -6px;
+    padding: 2px;
+    color: #000;
+    text-align: center;
+}
+.nav-content ul li{
+list-style: none;
+padding-right: 30px;
+}
+
+.cards{
+   
+    margin: 50px 50px;
+    display:grid;
+    
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.card{
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+   border-radius:10px;
+    padding:20px;
+    background-color:lightgray;
+    box-shadow: 30px 30px 30px gray ;
+}
+.price{
+    padding-top:10px;
+    display:flex;
+   justify-content:space-between;
+    text-align:start;
+}
+.add-card{
+    background-color:gray;
+    padding:10px;
+    border-radius:100%;
+    width:60px;
+    height:60px;
+    cursor:pointer;
+    transition: .2s ease-in;
+   
+}
+.add-card:hover{
+ 
+    color:white;
+}
+.image-container img{
+    width:200px;
+    height:200px;
+    border-radius:100%
+   
 }
