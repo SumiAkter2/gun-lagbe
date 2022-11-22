@@ -1,23 +1,28 @@
 import React from 'react';
-import { useEffect, useState } from "react";
-import Card from './Card'
+import useHook from '../useHook';
+import Card from './Card';
+import Navbar from './Navbar';
+
 const Cards = () => {
-    const [guns, setGuns]=useState([]);
-    useEffect(()=>{
-        fetch('data.json')
-        .then(res=>res.json())
-        .then(data=>setGuns(data))
-    },[])
-    return (
-        <div className="cards">
-           {guns.map((gun) => (
-          <Card gun={gun} key={gun.id}  />
+   const [guns,  ] = useHook();
+  const [cart,setCart] = useHook();
+  const handleToCard = (gun) => {
+    const newCart = [...cart, gun];
+    setCart(newCart);
+    console.log(newCart);
+  };
+  return (
+    <div>
+      {cart.length}
+      <Navbar cart={cart} />
+      <div className="cards">
+        {guns.map((gun) => (
+          <Card gun={gun} key={gun.id} handleToCard={handleToCard} />
         ))}
-        </div>
-    );
+      </div>
+     
+    </div>
+  );
 };
 
 export default Cards;
-
-
-
