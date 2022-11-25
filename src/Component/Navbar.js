@@ -2,7 +2,9 @@ import React, { useContext } from "react";
 import { BsCart } from "react-icons/bs";
 import { GiAntiAircraftGun } from "react-icons/gi";
 import { CartContext } from "../App";
-const Navbar = () => {
+
+
+const Navbar = ({openModal}) => {
   const [cart] = useContext(CartContext);
   return (
     <div className="nav-content">
@@ -15,7 +17,7 @@ const Navbar = () => {
         <li>About</li>
         <li>
           <span>{cart.length}</span>
-          <BsCart size={40} className='cart-logo'/>
+          <BsCart size={40} className='cart-logo' onClick={openModal}/>
         </li>
       </ul>
     </div>

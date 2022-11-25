@@ -1,5 +1,4 @@
 import React, { useContext, useEffect } from "react";
-
 import Card from "./Card";
 
 import { CartContext } from "../App";
@@ -11,10 +10,11 @@ const Cards = () => {
       .then((res) => res.json())
       .then((data) => setGuns(data));
   }, []);
-  console.log(guns);
+
   const handleToCart = (gun) => {
     setCart([...cart, gun]);
   };
+
   return (
     <div>
       <div className="cards">
