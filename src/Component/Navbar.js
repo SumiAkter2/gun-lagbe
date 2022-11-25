@@ -1,8 +1,7 @@
 import React from "react";
 import { BsCart } from "react-icons/bs";
 import { GiAntiAircraftGun } from "react-icons/gi";
-const Navbar = ({cart}) => {
-
+const Navbar = () => {
   return (
     <div className="nav-content">
       <h1>
@@ -10,7 +9,7 @@ const Navbar = ({cart}) => {
       </h1>
       <ul>
         <li>
-          <span>{cart.length}</span>
+          {/* <span>{cart.length}</span> */}
           <BsCart size={40} />
         </li>
       </ul>

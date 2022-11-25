@@ -1,24 +1,24 @@
-import React from "react";
-import { BsCart } from "react-icons/bs";
-const Card = ({ gun,handleToCard  }) => {
+// import React from "react";
+// import { BsCart } from "react-icons/bs";
+// const Card = ({ gun,handleToCard  }) => {
 
-  return (
-    <div className="card">
-      <div className="image-container">
-        <img src={gun.img} alt="" />
-      </div>
-      <div className="gun-info">
-        <h1>{gun.name}</h1>
-        <p>Bullet Type : {gun.bullet}</p>
-        <p>Capacity : {gun.capacity}</p>
-        <p>Action : {gun.action}</p>
-        <h1 className="price">
-          <BsCart size={40} className="add-card" onClick={()=>handleToCard(gun)} /> $
-          {gun.price}
-        </h1>
-      </div>
-    </div>
-  );
-};
+//   return (
+//     <div className="card">
+//       <div className="image-container">
+//         <img src={gun.img} alt="" />
+//       </div>
+//       <div className="gun-info">
+//         <h1>{gun.name}</h1>
+//         <p>Bullet Type : {gun.bullet}</p>
+//         <p>Capacity : {gun.capacity}</p>
+//         <p>Action : {gun.action}</p>
+//         <h1 className="price">
+//           <BsCart size={40} className="add-card" onClick={()=>handleToCard(gun)} /> $
+//           {gun.price}
+//         </h1>
+//       </div>
+//     </div>
+//   );
+// };
 
-export default Card;
+// export default Card;
