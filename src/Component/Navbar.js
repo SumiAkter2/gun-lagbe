@@ -10,9 +10,12 @@ const Navbar = () => {
         <GiAntiAircraftGun size={40} /> GUN LAGBE
       </h1>
       <ul>
+        <li>Home</li>
+        <li>Contact</li>
+        <li>About</li>
         <li>
           <span>{cart.length}</span>
-          <BsCart size={40} />
+          <BsCart size={40} className='cart-logo'/>
         </li>
       </ul>
     </div>
