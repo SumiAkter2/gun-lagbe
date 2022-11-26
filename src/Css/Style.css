@@ -21,7 +21,7 @@ body{
 
 }
 .nav-content ul{
-    
+    margin: 10px;
     cursor: pointer;
     display: flex;
 }
@@ -29,27 +29,36 @@ body{
 position: relative;
 
 }
-.nav-content ul li span{
+.cart-logo span{
     position: absolute;
     background-color:rgba(255,255,255, 0.8);
     border-radius: 100px;
     width: 25px;
     height: 25px;
-    right: 35px;
-    top: 8px;
+    left: 25px;
+    top: -10px;
     padding: 2px;
     color: #000;
     text-align: center;
 }
-.nav-content ul li{
-list-style: none;
-padding-right: 30px;
-font-size: 18px;
+.Link{
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 20px;
+    color: #000;
+    transition:  ease-in-out 300ms;
 }
-.nav-content ul li:hover{
+.Link:hover{
+   
+    font-size: 25px;
+}
+.active{
     color: white;
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 20px;
+    transition: ease-in-out 300ms;
 }
-
 .cards{
    
     margin: 50px 50px;
@@ -65,7 +74,7 @@ font-size: 18px;
     align-items:center;
    border-radius:10px;
     padding:20px;
-    background-color:lightgray;
+    background-color:rgb(224, 223, 223);
     box-shadow: 30px 30px 30px gray ;
 }
 .price{
